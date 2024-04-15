@@ -223,6 +223,7 @@ project.lock.json
 AppPackages/
 
 Attest_C_Sharp.sln
+Final_Attest.csproj
 
 #####
 # End of core ignore list, below put you custom 'per project' settings (patterns or path)

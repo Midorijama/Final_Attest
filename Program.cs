@@ -1,4 +1,4 @@
-﻿string[] FillArrayFromKeyboard(int n) //Функция заполнения массива строк с клавиатуры
+﻿string[] FillArrayFromKeyboard(int n)    //Функция заполнения массива строк с клавиатуры
 {
     string[] array = new string[n];
     for (int i = 0; i < array.Length; i++)
@@ -9,7 +9,7 @@
     return array;
 }
 
-void PrintArray(string[] arr)  //Функция вывода массива строк 
+void PrintArray(string[] arr)    //Функция вывода массива строк 
 {
     foreach (var item in arr)
     {
@@ -23,7 +23,7 @@ void PrintArray(string[] arr)  //Функция вывода массива ст
 
 Console.WriteLine("Введите количество элементов массива: ");
 int n = Convert.ToInt32(Console.ReadLine());
-string[] array = FillArrayFromKeyboard(n);
+string[] array = FillArrayFromKeyboard(n);    //Заполнение массива с клавиатуры помощью функции
 int s = 0;
 
 foreach (string e in array)
@@ -42,4 +42,4 @@ for (int i = 0, j = 0; i < array.Length; i++)
     }
 }
 
-PrintArray(final_array);
+PrintArray(final_array);    //Вывод всех элементов массива с помощью функции
